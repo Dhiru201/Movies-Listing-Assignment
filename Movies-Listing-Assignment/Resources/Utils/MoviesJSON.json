@@ -1,0 +1,115 @@
+{
+    "movieList":[
+        {
+            "id": 1,
+            "title": "Inception",
+            "releaseDate": "2010-07-16",
+            "duration": "2h 30 min",
+            "rating": 8.8,
+            "genre": "Action, Adventure, Sci-Fi",
+            "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+            "imageUrl": "https://m.media-amazon.com/images/I/51zUbui+gbL._AC_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 2,
+            "title": "The Dark Knight",
+            "releaseDate": "2008-07-18",
+            "duration": "2h 36 min",
+            "rating": 9.0,
+            "genre": "Action, Crime, Drama",
+            "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+            "imageUrl": "https://m.media-amazon.com/images/I/81OaXwn1x4L._AC_SY679_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 3,
+            "title": "The Godfather",
+            "releaseDate": "1972-03-24",
+            "duration": "2h 23 min",
+            "rating": 9.2,
+            "genre": "Crime, Drama",
+            "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+            "imageUrl": "https://m.media-amazon.com/images/I/41+eK8zBwQL._AC_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 4,
+            "title": "Pulp Fiction",
+            "releaseDate": "1994-10-14",
+            "duration": "2h 45 min",
+            "rating": 8.9,
+            "genre": "Crime, Drama",
+            "description": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption.",
+            "imageUrl": "https://m.media-amazon.com/images/I/71c05lTE03L._AC_SY679_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 5,
+            "title": "The Shawshank Redemption",
+            "releaseDate": "1994-09-22",
+            "duration": "2h 46 min",
+            "rating": 9.3,
+            "genre": "Drama",
+            "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+            "imageUrl": "https://m.media-amazon.com/images/I/81XVzhrY-gL._AC_UY218_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 6,
+            "title": "Star Wars: Episode IV - A New Hope",
+            "releaseDate": "1977-05-25",
+            "duration": "2h 30 min",
+            "rating": 8.6,
+            "genre": "Adventure, Fantasy",
+            "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+            "imageUrl": "https://m.media-amazon.com/images/I/81aA7hEEykL._AC_SY679_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 7,
+            "title": "Forrest Gump",
+            "releaseDate": "1994-07-06",
+            "duration": "2h 55 min",
+            "rating": 8.8,
+            "genre": "Drama, Romance",
+            "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+            "imageUrl": "https://m.media-amazon.com/images/I/71dRW5AMhPL._AC_UL320_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 8,
+            "title": "The Matrix",
+            "releaseDate": "1999-03-31",
+            "duration": "2h 39 min",
+            "rating": 8.7,
+            "genre": "Action, Sci-Fi",
+            "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+            "imageUrl": "https://m.media-amazon.com/images/I/51EG732BV3L._AC_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 9,
+            "title": "Fight Club",
+            "releaseDate": "1999-10-15",
+            "duration": "1h 58 min",
+            "rating": 8.8,
+            "genre": "Drama",
+            "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much, much more.",
+            "imageUrl": "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg",
+            "isFavorite": false
+        },
+        {
+            "id": 10,
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "releaseDate": "2001-12-19",
+            "duration": "2h 44 min",
+            "rating": 8.8,
+            "genre": "Action, Adventure",
+            "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+            "imageUrl": "https://m.media-amazon.com/images/I/51Qvs9i5a%2BL._AC_.jpg",
+            "isFavorite": false
+        }
+    ]
+
+}
