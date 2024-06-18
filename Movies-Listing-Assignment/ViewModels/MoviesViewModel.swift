@@ -48,7 +48,7 @@ public class MoviesViewModel {
     /// - Parameter completion: Completion handler called after fetching movies.
     public func fetchMovies(completion: @escaping () -> Void) {
         movieManager.fetchMovieList(completionHandler: { result in
-            print(result)
+            debugPrint(result)
             switch result {
             case .success(let movieResponse) :
                 if let movies = movieResponse.movieList {
@@ -56,7 +56,7 @@ public class MoviesViewModel {
                     completion()
                 }
             case .failure(let error):
-                print(error)
+                debugPrint(error)
                 self.movies = []
                 completion()
             }

@@ -46,7 +46,6 @@ final class MovieListTableCell: UITableViewCell {
     /// Toggles the favorite button icon based on the movie's favorite status.
     /// - Parameter isFavorite: A Boolean value indicating whether the movie is marked as favorite.
     private func toggelFavoriteButton(isFavorite: Bool) {
-        print(isFavorite)
         favoriteButton.setImage(isFavorite ? UIImage(systemName: "bookmark.fill") : UIImage(systemName: "bookmark"), for: .normal)
     }
     

@@ -33,7 +33,7 @@ final class JSONManager {
         }
         do {
             let decodedResponse = try JSONDecoder().decode(type.self, from: data)
-            print(decodedResponse)
+            debugPrint(decodedResponse)
             completionHandler(.success(decodedResponse))
         } catch let error {
             return completionHandler(.failure(.decoding(error: error)))

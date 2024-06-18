@@ -46,7 +46,6 @@ public extension UITableView {
     }
 }
 
-
 // MARK: - UIView Extension for Nib Loading
 extension UIView {
     /// Loads a view from its associated Nib file.

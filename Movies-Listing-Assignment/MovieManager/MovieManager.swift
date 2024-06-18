@@ -10,8 +10,11 @@ import Foundation
 /// Manager class for performing product-related operations.
 struct MovieManager {
     
-    /// The favorite repository used for data access from core Data.
+    /// The favorite service used for data access from core Data.
     private let favoriteService: FavoriteServiceProtocol?
+    
+    /// The comment service used for comment access from core Data.
+    private let commentService: CommentServiceProtocol?
     
     /// The movie service used for fetching movie data locally.
     private let movieService: MovieServiceProtocol?
@@ -20,9 +23,10 @@ struct MovieManager {
     /// - Parameters:
     ///   - favoriteService: The favorite repository used for core data access.
     ///   - movieService: The movie service used for fetching movie data.
-    init(favoriteService: FavoriteServiceProtocol?, movieService: MovieServiceProtocol? = nil) {
+    init(favoriteService: FavoriteServiceProtocol?, movieService: MovieServiceProtocol? = nil, commentService: CommentServiceProtocol? = nil) {
         self.favoriteService = favoriteService
         self.movieService = movieService
+        self.commentService = commentService
     }
     
     /// Fetches all favorite movies.
@@ -51,5 +55,17 @@ struct MovieManager {
         movieService.fetchMovieList { result in
             completionHandler(result)
         }
+    }
+    
+    
+    /// Fetches all favorite movies.
+    /// - Returns: An array of `Movie` objects representing all favorite movies, or nil if an error occurs.
+    func getAllComments(for movie: Movie) -> [Comment]? {
+        guard let allComments = commentService?.getAllComments() else { return nil }
+        return allComments.filter({$0.movieId == movie.id})
+    }
+    
+    func saveComment(_ comment: Comment) {
+        commentService?.saveComment(comment: comment)
     }
 }
